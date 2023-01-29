@@ -1,12 +1,12 @@
 @media(min-width:767px){}
 @media(min-width:768px){}
 @media(min-width:991px){
-    .row div img{
+    .items div img{
         width:70%;
     }
 }
 @media(min-width:1199px){
-    .row div img{
+    .items div img{
         width:70%;
     }
 }
@@ -17,15 +17,15 @@
     padding-top: 5rem;
     
 }
-.row div{
+.items div{
     background-color: var(--box-color);
 }
-.row div img{
+.items div img{
     width: 100%;
     height: 180px;
     border: 4px solid var(--main-color);
 }
-.book .row img{
+.book .items img{
     width: 87%;
     height: 290px;
 }

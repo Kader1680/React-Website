@@ -3,7 +3,8 @@ import './App.css';
 import Front from './frontend/frontend';
 import Header from './header/header';
 import Back from './backend/backend';
-
+import Footer from './footer/footer'
+import REACT from './frontend/react/react'
 
 function App() {
   return (
@@ -13,8 +14,11 @@ function App() {
         <Routes>
           <Route path='/frontend' element={<Front /> } />
           <Route path='/backend' element={<Back />} />
+          <Route path='/frontend/react' element={<REACT />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
+
     </div>
     
     

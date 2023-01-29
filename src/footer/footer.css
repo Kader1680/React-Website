@@ -1,0 +1,129 @@
+
+/* info section */
+.info_section {
+    background-color: #161616;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.info_section img {
+  width: 100%;
+}
+
+.info_section ul {
+  padding: 0;
+}
+
+.info_section ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.info_section ul li a,
+.info_section ul li a:hover {
+  color: black;
+}
+
+.info_section h5 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: rgb(68, 68, 68);
+}
+
+.info_section .social-box {
+  margin: 25px 0;
+}
+
+.info_section .social-box img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.form_container form {
+  display: flex;
+  align-items: center;
+}
+
+.info_section .form_container label {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.info_section .form_container input {
+    width: 300px;
+    height: 44px;
+    /* border-radius: 5px; */
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    background-color: #fff;
+    margin-left: 45px;
+    margin-right: 10px;
+}
+
+.info_section .form_container button {
+    background-color: #ef3c3d;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 8px 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    /* border-radius: 5px; */
+    text-transform: uppercase;
+}
+
+/* end info section */
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+}
+.copyright {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-left: 0;
+}
+.copyright a {
+    color: #000;
+}
+.copyright a:hover{
+    color: #09d066;
+}
+
+.blog_text{
+     width: 100%;
+     float: left;
+     font-size: 40px;
+     text-align: center;
+     color: #000;
+     font-weight: bold;
+     padding-bottom: 40px;
+}
+.padding_bottom_0{
+     padding-bottom: 90px; 
+}
+
+@media (min-width: 768px) {
+
+  .mobile_header { display: none !important; }
+  .destop_header { display: block; }
+
+} 
+
+
+@media (max-width: 767px) {
+
+  .destop_header{ display: none; }
+  .mobile_header { display: block; }
+
+}
+.mobile_header{ display: none; }
