@@ -48,6 +48,7 @@ body{
     .Ibar .fa-bars, .fa-xmark{
         display:none;
     }
+
 }
 nav{
     background-color: var(--main-color);
@@ -66,9 +67,20 @@ nav{
     margin-left: 10px;
     color: var(--text-color);
     font-weight: bolder;
+    position: relative;
+}
+.list .item ul.Dropdown{
+    list-style: none;
+    position: absolute;
+    background-color: var(--main-color);
+    width: 100%;
+    display: none;
 
 }
+.list .item:hover ul.Dropdown{
+    display: block;
 
+}
 .item a{
     text-decoration: underline;
     color: var(--text-color);

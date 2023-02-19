@@ -4,7 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import apch from "../img/apch.png"
 import aws from "../img/aws.png"
 import icon from "../img/icon.png"
+import javaback from "../img/javaback.png"
 import reqbin from "../img/reqbin.png"
+import jsinfo from "../img/jsinfo.png"
+import sqlserver from "../img/sqlserver.png"
+import wbtem from "../img/wbtem.png"
 function Home() {
     return(
         <div className="ppp">
@@ -149,9 +153,60 @@ function Home() {
 
             <div class="limit d-flex align-text-center m-auto">
                 <hr></hr>
-                <p class='title'>Articles</p>
+                <p class='title'>Website</p>
                 <hr></hr>
             </div>
+
+
+            <div class="courses row">
+                <div class="Feild col-lg-3">
+                    <img src={sqlserver} />
+                    <h4>font aswomn</h4>
+
+                    <div class="commit">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    
+                    </div>
+                </div>
+                <div class="Feild col-lg-3">
+                    <img src={javaback} />
+                    <h4>Crash Courses JavaScript</h4>
+                    <div class="commit">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <div class="Feild col-lg-3">
+                    
+                    <img src={wbtem} />
+                    <h4>Crash Courses SCSS</h4>
+                    <div class="commit">
+                        <i class=" fa-regular fa-thumbs-up"></i>
+                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    
+                    </div>
+                </div>
+                <div class="Feild col-lg-3">
+                    
+                    <img src={jsinfo} />
+                    <h4>Crash Courses PHP</h4>
+                    <div class="commit">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     )
 }

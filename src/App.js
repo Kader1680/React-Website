@@ -20,7 +20,7 @@ function App() {
           <Route path='/frontend/react' element={<REACT />} />
         </Routes>
       </BrowserRouter>
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
     
