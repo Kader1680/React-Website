@@ -82,7 +82,7 @@ export default class Front extends React.Component{
                 {/* ----- TOOLS FEILD ------ */}
 
 
-                <div class="tools mt-5">
+                {/* <div class="tools mt-5">
                     <div className="row">
                         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                             <img src={font}  />
@@ -113,7 +113,7 @@ export default class Front extends React.Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
                 
         

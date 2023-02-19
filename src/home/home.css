@@ -1,0 +1,51 @@
+:root{
+    --main-color: #1b2430;
+    --text-color: #17cf97;
+}
+
+.ppp{
+    padding-top: 5rem;
+}
+hr{
+    width: 30%;
+    height: 5px;
+}
+.limit .title{
+    color: white;
+    background-color: var(--text-color);
+    padding: 2px 10px;
+}
+.courses{
+}
+.courses .Feild{
+    
+    background-color: rgb(239, 239, 239);
+    width: 300px;
+    border: 2px solid var(--main-color);
+}
+.Feild h4{
+    font-size: 20px;
+
+}
+.Feild .commit i{
+    font-size: 24px;
+    
+}
+.Feild .commit i.fa-thumbs-up:hover{
+    color: rgb(46, 199, 49)
+}
+.Feild .commit .fa-thumbs-down:hover{
+    color: rgb(255, 58, 58);    
+}
+.Feild .commit button{
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    float:right;
+    right: 0;
+}
+
+
+

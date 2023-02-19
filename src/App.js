@@ -5,6 +5,7 @@ import Header from './header/header';
 import Back from './backend/backend';
 import Footer from './footer/footer'
 import REACT from './frontend/react/react'
+import Home from './home/home';
 
 function App() {
   return (
@@ -12,12 +13,14 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
+          {/* <Route path='/home' element={<Home /> } /> */}
+          <Route path='/' element={<Home /> } />
           <Route path='/frontend' element={<Front /> } />
           <Route path='/backend' element={<Back />} />
           <Route path='/frontend/react' element={<REACT />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
     

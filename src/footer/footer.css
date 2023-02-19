@@ -1,11 +1,21 @@
 
 /* info section */
+/* 
+--main-color: #1b2430;
+    --text-color: #17cf97;
+
+*/
+:root{
+  --main-color: #1b2430;
+  --text-color: #17cf97;
+}
 .info_section {
-    background-color: #161616;
+    background-color: var(--main-color);
     font-family: "Poppins", sans-serif;
     width: 100%;
     float: left;
     padding-bottom: 50px;
+    bottom: 0;
 }
 
 .info_section img {
@@ -23,13 +33,13 @@
 
 .info_section ul li a,
 .info_section ul li a:hover {
-  color: black;
+  color: var(--text-color);
 }
 
 .info_section h5 {
   margin-bottom: 12px;
   font-size: 22px;
-  color: rgb(68, 68, 68);
+  color: rgb(255, 255, 255);
 }
 
 .info_section .social-box {
@@ -81,7 +91,7 @@
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #ffffff;
+    background-color: var(--main-color);
     height: auto;
 }
 .copyright {

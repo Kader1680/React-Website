@@ -4,29 +4,73 @@
     box-sizing: border-box;
 }
 :root{
-    --main-color: rgb(255, 191, 0);
-    --text-color: rgb(33, 33, 33);
+    --main-color: #1b2430;
+    --text-color: #17cf97;
     
 }
-
+body{
+    background-color: #cce2ff;
+}
+@media(max-width:767px){
+    nav{
+        width: 100%;
+    }
+    .Ibar .fa-bars, .fa-xmark{
+        font-size: 30px;
+    }
+    nav .logo{
+    }
+    .list{
+        display: grid;
+        position: fixed;
+        background-color: #1b2430;
+        right: 0;
+        float: right;
+        top: -18rem;
+        height: 40%;
+        width: 60%;
+        padding-top: 1rem;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+}
+    .list.show{
+        top: 48px;
+        
+    }
+}
+@media(min-width:768px){
+    nav{
+        width: 100%;
+    }
+    .Ibar .fa-bars, .fa-xmark{
+        display:none;
+    }
+}
 nav{
     background-color: var(--main-color);
-    color: var(--text-color);
+    color: var(--text-color);;
     align-items: center;
     position: fixed;
-    width: 100%;
+    justify-content: space-around;
 }
 
-ul{
+.list{
     list-style: none;
-    
+    padding-top: 10px;
 }
-ul li{
+.list .item{
     display: inline-block;
     margin-left: 10px;
-}
-li a:hover{
-    text-decoration: underline;
+    color: var(--text-color);
+    font-weight: bolder;
+
 }
 
+.item a{
+    text-decoration: underline;
+    color: var(--text-color);
+}
 
