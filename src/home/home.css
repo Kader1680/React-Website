@@ -2,7 +2,9 @@
     --main-color: #1b2430;
     --text-color: #17cf97;
 }
-
+i{
+    cursor: pointer;
+}
 .ppp{
     padding-top: 5rem;
 }
@@ -18,14 +20,20 @@ hr{
 .courses{
 }
 .courses .Feild{
-    
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(255, 255, 255);
     width: 300px;
-    border: 2px solid var(--main-color);
 }
 .Feild h4{
     font-size: 20px;
-
+}
+.Feild .vedio{
+    
+}
+.Feild .vedio iframe{
+    width: 100%;
+}
+.Feild  img{
+    width: 100%;
 }
 .Feild .commit i{
     font-size: 24px;
@@ -38,14 +46,18 @@ hr{
     color: rgb(255, 58, 58);    
 }
 .Feild .commit button{
-    background-color: var(--main-color);
+    /* background-color: var(--main-color);
     color: white;
     border: none;
     padding: 5px 10px;
-    border-radius: 8px;
+    border-radius: 8px; */
+    
+}
+.Feild .commit button .fa-download{
+    font-size: 20px;
+    color: var(--main-color);
     float:right;
     right: 0;
 }
-
 
 
