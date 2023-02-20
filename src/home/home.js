@@ -12,6 +12,16 @@ import wbtem from "../img/wbtem.png"
 function Home() {
     return(
         <div className="ppp">
+            <header class="text-center">
+                <h2>Welcome to RestrettoCode</h2>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. </p>
+                <div className="search">
+                    <input placeholder="Search " ></input>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    {/* <button><i class="fa-solid fa-magnifying-glass"></i></button> */}
+                </div>
+            </header>
+
             <div class="limit d-flex align-text-center m-auto">
                 <hr></hr>
                 <p class='title'>Coureses</p>

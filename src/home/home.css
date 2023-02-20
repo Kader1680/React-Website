@@ -8,6 +8,35 @@ i{
 .ppp{
     padding-top: 5rem;
 }
+header{
+    padding: 50px 0px;
+    color: var(--text-color);
+    background-color: var(--main-color);
+}
+header p{
+    width: 50%;
+    color: white;
+    margin: 15px auto;
+}
+header .search{
+    margin: auto;
+    width: 70%;
+    background-color: white;
+    /* background-color: var(--main-color) */
+}
+header .search input{
+    border: none;
+    width: 90%;
+    padding: 10px 5px;
+    outline: none;
+
+}
+header .search i{
+    background-color: white;
+    color: var(--main-color);
+    padding: 9px;
+    margin-left: 15px;
+}
 hr{
     width: 30%;
     height: 5px;

@@ -21,7 +21,7 @@ function  Header(){
                     <nav class= " d-flex pt-2 pb-2">
                         <div class="logo fw-bold">
                             
-                            Restretto<span >Programming</span>
+                            Restretto<span >Code</span>
                         </div>
                         <div class="Ibar" onClick={BarClick} >
                         {
