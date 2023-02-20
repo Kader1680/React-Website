@@ -57,7 +57,20 @@ function  Header(){
                                 <li class=" item">
                                     <a href="/backend" class="text-decoration-none">BackEnd</a>
                                     <i class="fa-solid fa-chevron-down ms-2"></i>
-
+                                    <ul class="Dropdown">
+                                        <li class=" it">
+                                            <a href="/" class="text-decoration-none">PHP & Laravel</a>
+                                        </li>
+                                        <li class=" it">
+                                            <a href="/" class="text-decoration-none">Node js </a>
+                                        </li>
+                                        <li class=" it">
+                                            <a href="/" class="text-decoration-none">Django & Flask</a>
+                                        </li>
+                                        <li class=" it">
+                                            <a href="/" class="text-decoration-none">DataBase</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class=" item">
                                     <a href="#" class=" text-decoration-none">Sign in</a>
