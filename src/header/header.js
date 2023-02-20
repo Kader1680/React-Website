@@ -38,6 +38,7 @@ function  Header(){
                                 </li>
                                 <li class=" item">
                                     <a href="/frontend" class="text-decoration-none">FrontEnd</a>
+                                    <i class="fa-solid fa-chevron-down ms-2"></i>
                                     <ul class="Dropdown">
                                         <li class=" it">
                                             <a href="/" class="text-decoration-none">Courses</a>
@@ -55,6 +56,8 @@ function  Header(){
                                 </li>
                                 <li class=" item">
                                     <a href="/backend" class="text-decoration-none">BackEnd</a>
+                                    <i class="fa-solid fa-chevron-down ms-2"></i>
+
                                 </li>
                                 <li class=" item">
                                     <a href="#" class=" text-decoration-none">Sign in</a>
