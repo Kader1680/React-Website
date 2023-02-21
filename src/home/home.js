@@ -26,7 +26,7 @@ function Home() {
                 </div>
             </header>
 
-            <div class="limit d-flex align-text-center m-auto">
+            <div class="limit d-flex align-text-center ">
                 <hr></hr>
                 <p class='title'>Coureses</p>
                 <hr></hr>
@@ -87,7 +87,7 @@ function Home() {
 
 
 
-            <div class="limit d-flex align-text-center m-auto">
+            <div class="limit d-flex align-text-center">
                 <hr></hr>
                 <p class='title'>Tools</p>
                 <hr></hr>
@@ -162,7 +162,7 @@ function Home() {
 
 
 
-            <div class="limit d-flex align-text-center m-auto">
+            <div class="limit d-flex align-text-center">
                 <hr></hr>
                 <p class='title'>Website</p>
                 <hr></hr>
@@ -172,7 +172,9 @@ function Home() {
             <div class="courses row">
                 <div class="Feild col-lg-3">
                     <img src={sqlserver} />
-                    <h4>font aswomn</h4>
+                
+                    <a href="">SQL Server</a>
+
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
@@ -183,7 +185,7 @@ function Home() {
                 </div>
                 <div class="Feild col-lg-3">
                     <img src={javaback} />
-                    <h4>Crash Courses JavaScript</h4>
+                    <a href="">Java</a>
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
                         <i class="fa-regular fa-thumbs-down ms-3"></i>
@@ -193,7 +195,8 @@ function Home() {
                 <div class="Feild col-lg-3">
                     
                     <img src={wbtem} />
-                    <h4>Crash Courses SCSS</h4>
+                    <a href="">Template for Download</a>
+
                     <div class="commit">
                         <i class=" fa-regular fa-thumbs-up"></i>
                         <i class="fa-regular fa-thumbs-down ms-3"></i>
@@ -205,7 +208,8 @@ function Home() {
                 <div class="Feild col-lg-3">
                     
                     <img src={jsinfo} />
-                    <h4>Crash Courses PHP</h4>
+                    <a href="">JavaScript</a>
+
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
                         <i class="fa-regular fa-thumbs-down ms-3"></i>

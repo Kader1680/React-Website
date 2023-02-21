@@ -41,8 +41,12 @@ header .search i{
     margin-left: 15px;
 }
 hr{
-    width: 30%;
+    width: 45%;
     height: 5px;
+    
+}
+.limit{
+    margin: 50px 0px;
 }
 .limit .title{
     color: var(--text-color);
@@ -53,10 +57,12 @@ hr{
 }
 .courses{
     width: 100%;
+    margin: auto;
 }
 .courses .Feild{
+    margin: 0px auto;
+    width: 24%;
     background-color: rgb(255, 255, 255);
-    width: 300px;
 }
 .Feild h4{
     font-size: 20px;
