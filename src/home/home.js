@@ -9,6 +9,10 @@ import reqbin from "../img/reqbin.png"
 import jsinfo from "../img/jsinfo.png"
 import sqlserver from "../img/sqlserver.png"
 import wbtem from "../img/wbtem.png"
+import html from "../img/html.png"
+import php from "../img/php.png"
+import js from "../img/js.png"
+import angular from "../img/angular.png"
 function Home() {
     return(
         <div className="ppp">
@@ -28,12 +32,11 @@ function Home() {
                 <hr></hr>
             </div>
             
-            <div class="courses row">
+            <div class="courses row ">
                 <div class="Feild col-lg-3">
-                    <div class="vedio">
-                        <iframe src="https://www.youtube.com/embed/iG2jotQo9NI"></iframe>
-                    </div>
-                    <h4>Crash Courses HTML & CSS</h4>
+                    <img src={html} />
+
+                    <a href="https://www.youtube.com/watch?v=D-h8L5hgW-w">Crash Courses HTML & CSS</a>
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
@@ -43,10 +46,10 @@ function Home() {
                     </div>
                 </div>
                 <div class="Feild col-lg-3">
-                    <div class="vedio">
-                        <iframe src="https://www.youtube.com/embed/W6NZfCO5SIk&t=1290s"></iframe>
-                    </div>
-                    <h4>Crash Courses JavaScript</h4>
+                    <img src={angular} />
+
+                    <a href="https://www.youtube.com/watch?v=AAu8bjj6-UI">Crash Courses Angular</a>
+
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
@@ -56,10 +59,9 @@ function Home() {
                     </div>
                 </div>
                 <div class="Feild col-lg-3">
-                    <div class="vedio">
-                        <iframe src="https://www.youtube.com/embed/qZXt1Aom3Cs"></iframe>
-                    </div>
-                    <h4>Crash Courses SCSS</h4>
+                    <img src={js} />
+                    <a href="https://www.youtube.com/watch?v=o1IaduQICO0">learn Courses JavaScript</a>
+
 
                     <div class="commit">
                         <i class=" fa-regular fa-thumbs-up"></i>
@@ -69,10 +71,9 @@ function Home() {
                     </div>
                 </div>
                 <div class="Feild col-lg-3">
-                    <div class="vedio">
-                        <iframe src="https://www.youtube.com/embed/pszZMzI9a7A&t=3s"></iframe>
-                    </div>
-                    <h4>Crash Courses PHP</h4>
+                    <img src={php} />
+                    <a href="https://www.youtube.com/watch?v=OB8jBvu8N34">Crash Courses PHP</a>
+
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
@@ -214,8 +215,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
-
 
         </div>
     )

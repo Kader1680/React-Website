@@ -40,6 +40,7 @@ body{
         top: 48px;
         
     }
+    
 }
 @media(min-width:768px){
     nav{
@@ -48,6 +49,22 @@ body{
     .Ibar .fa-bars, .fa-xmark{
         display:none;
     }
+    .list{
+        list-style: none;
+        padding-top: 10px;
+    }
+    .list .item{
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: bolder;
+        position: relative;
+        /* padding: 5px; */
+        padding: 15px 0px;
+    
+    
+    }
+    
+    
 
 }
 nav{
@@ -57,25 +74,9 @@ nav{
     position: fixed;
     justify-content: space-around;
 }
-
 .list{
     list-style: none;
     padding-top: 10px;
-}
-.list .item{
-    display: inline-block;
-    margin-left: 10px;
-    font-weight: bolder;
-    position: relative;
-    /* padding: 5px; */
-    padding: 15px 0px;
-
-
-}
-.item a{
-    color: var(--text-color);
-    text-decoration: underline;
-
 }
 .list .item ul.Dropdown{
     list-style: none;
@@ -114,4 +115,10 @@ nav{
     -ms-transform: translateX(.5rem);
     -o-transform: translateX(.5rem);
 }
+.item a{
+    color: var(--text-color);
+    text-decoration: underline;
+
+}
+
 

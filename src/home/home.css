@@ -9,8 +9,11 @@ i{
     padding-top: 5rem;
 }
 header{
-    padding: 50px 0px;
+    padding: 14px 0px;
     color: var(--text-color);
+    /* background-image: url("../img/header.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--main-color);
 }
 header p{
@@ -42,11 +45,14 @@ hr{
     height: 5px;
 }
 .limit .title{
-    color: white;
-    background-color: var(--text-color);
+    color: var(--text-color);
+    background-color: var(--main-color);
     padding: 2px 10px;
+    font-size: 24px;
+    margin: auto;
 }
 .courses{
+    width: 100%;
 }
 .courses .Feild{
     background-color: rgb(255, 255, 255);
@@ -55,12 +61,10 @@ hr{
 .Feild h4{
     font-size: 20px;
 }
-.Feild .vedio{
+.Feild .galerie{
     
 }
-.Feild .vedio iframe{
-    width: 100%;
-}
+
 .Feild  img{
     width: 100%;
     height: 65%;
