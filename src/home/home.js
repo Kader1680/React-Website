@@ -14,6 +14,9 @@ import php from "../img/php.png"
 import js from "../img/js.png"
 import angular from "../img/angular.png"
 function Home() {
+
+
+    
     return(
         <div className="ppp">
             <header class="text-center">
