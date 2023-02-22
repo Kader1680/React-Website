@@ -9,7 +9,7 @@
     
 }
 body{
-    background-color: #cce2ff;
+    background-color: #000000;
 }
 @media(max-width:767px){
     nav{
@@ -58,12 +58,17 @@ body{
         margin-left: 10px;
         font-weight: bolder;
         position: relative;
-        /* padding: 5px; */
-        padding: 15px 0px;
-    
-    
+        padding: 4px 5px;
+        transition: .8s;
+        -webkit-transition: .8s;
+        -moz-transition: .8s;
+        -ms-transition: .8s;
+        -o-transition: .8s;
+}
+    .list .item:hover{
+        border: 1px solid;
+        border-radius: 50px;
     }
-    
     
 
 }
@@ -83,7 +88,7 @@ nav{
     position: absolute;
     background-color: var(--text-color);
     width: 200%;
-    margin: 15px 0px;
+    margin: 6px 0px;
     border-radius: 0px 0px 15px 15px;
     padding: 13px 5px;
     display: none;

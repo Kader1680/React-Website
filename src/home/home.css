@@ -1,6 +1,6 @@
 :root{
-    --main-color: #1b2430;
-    --text-color: #17cf97;
+    --main-color: #1a1a1a;
+    --text-color: #3fb343 ;
 }
 i{
     cursor: pointer;
@@ -62,10 +62,18 @@ hr{
 .courses .Feild{
     margin: 0px auto;
     width: 24%;
-    background-color: rgb(255, 255, 255);
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
-.Feild h4{
-    font-size: 20px;
+.Feild a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
 }
 .Feild .galerie{
     
@@ -76,15 +84,13 @@ hr{
     height: 65%;
 }
 .Feild .commit i{
-    font-size: 24px;
-    
+    font-size: 17px;
+    color: white;
 }
 .Feild .commit i.fa-thumbs-up:hover{
-    color: rgb(46, 199, 49)
+    color: var(--text-color)
 }
-.Feild .commit .fa-thumbs-down:hover{
-    color: rgb(255, 58, 58);    
-}
+
 .Feild .commit button{
     /* background-color: var(--main-color);
     color: white;

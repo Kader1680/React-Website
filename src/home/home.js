@@ -5,7 +5,7 @@ import apch from "../img/apch.png"
 import aws from "../img/aws.png"
 import icon from "../img/icon.png"
 import javaback from "../img/javaback.png"
-import reqbin from "../img/reqbin.png"
+import api from "../img/api.png"
 import jsinfo from "../img/jsinfo.png"
 import sqlserver from "../img/sqlserver.png"
 import wbtem from "../img/wbtem.png"
@@ -43,7 +43,7 @@ function Home() {
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-download"></i>
                     
                     </div>
@@ -56,7 +56,7 @@ function Home() {
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-download"></i>
                     
                     </div>
@@ -68,7 +68,7 @@ function Home() {
 
                     <div class="commit">
                         <i class=" fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-download"></i>
                     
                     </div>
@@ -80,7 +80,7 @@ function Home() {
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                     
                         <i class="fa-solid fa-download"></i>
                     </div>
@@ -117,31 +117,33 @@ function Home() {
             <div class="courses row">
                 <div class="Feild col-lg-3">
                     <img src={apch} />
-                    <h4>font aswomn</h4>
+                    <a href="">Crash Courses SCSS</a>
+
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     
                     </div>
                 </div>
                 <div class="Feild col-lg-3">
                     <img src={icon} />
-                    <h4>Crash Courses JavaScript</h4>
+                    <a href="">Crash Courses SCSS</a>
+
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </div>
                 </div>
                 <div class="Feild col-lg-3">
                     
-                    <img src={reqbin} />
-                    <h4>Crash Courses SCSS</h4>
+                    <img src={api} />
+                    <a href="">Crash Courses SCSS</a>
                     <div class="commit">
                         <i class=" fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
 
                     
@@ -150,10 +152,11 @@ function Home() {
                 <div class="Feild col-lg-3">
                     
                     <img src={aws} />
-                    <h4>Crash Courses PHP</h4>
+                    <a href="">Crash Courses SCSS</a>
+
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
 
                     
@@ -181,7 +184,6 @@ function Home() {
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     
                     </div>
@@ -191,7 +193,6 @@ function Home() {
                     <a href="">Java</a>
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </div>
                 </div>
@@ -202,7 +203,7 @@ function Home() {
 
                     <div class="commit">
                         <i class=" fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
 
                     
@@ -215,7 +216,7 @@ function Home() {
 
                     <div class="commit">
                         <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-regular fa-thumbs-down ms-3"></i>
+                         
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
 
                     
