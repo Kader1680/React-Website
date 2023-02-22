@@ -6,6 +6,7 @@ import Back from './backend/backend';
 import Footer from './footer/footer'
 import REACT from './frontend/react/react'
 import Home from './home/home';
+import SignIn from './signin/signin';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
-
+      <SignIn />
     </div>
     
     

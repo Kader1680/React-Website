@@ -78,6 +78,7 @@ nav{
     align-items: center;
     position: fixed;
     justify-content: space-around;
+    height: 51px;
 }
 .list{
     list-style: none;
@@ -88,7 +89,7 @@ nav{
     position: absolute;
     background-color: var(--text-color);
     width: 200%;
-    margin: 6px 0px;
+    margin: 15px 0px;
     border-radius: 0px 0px 15px 15px;
     padding: 13px 5px;
     display: none;
@@ -123,6 +124,7 @@ nav{
 .item a{
     color: var(--text-color);
     text-decoration: underline;
+    padding: 18px 0px;
 
 }
 
