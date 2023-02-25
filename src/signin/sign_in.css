@@ -13,6 +13,9 @@
     background-color: rgb(255, 96, 96);
     width: 100%;
 }
-.login.loginNon{
+.login{
     display: none;
+}
+.logblock{
+    display: block;
 }

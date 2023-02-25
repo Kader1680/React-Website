@@ -5,7 +5,12 @@ function SignIn() {
 
     const [login, setlogin] = useState(false);
     function Loign() {
-        setlogin(true)
+        
+        if(login == false){
+            setlogin(true)
+        }else{
+            setlogin(false)
+        }
     }
     return(
         <div class="myform">
@@ -25,7 +30,7 @@ function SignIn() {
                 <input class="password" placeholder="password"></input>
                 <button>Get Started</button>
             </form>
-            <form class={login}>
+            <form class={login ? 'logblock' : 'login'}>
                 
                 <input class="email" placeholder="email"></input>
                 <input class="password" placeholder="password"></input>
