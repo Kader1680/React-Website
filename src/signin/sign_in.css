@@ -13,9 +13,16 @@
     background-color: rgb(255, 96, 96);
     width: 100%;
 }
-.login{
+
+.Sign_Up{
+    display: block;
+}
+.SignNon{
     display: none;
 }
-.logblock{
+.logNon{
+    display: none;
+}
+.login{
     display: block;
 }

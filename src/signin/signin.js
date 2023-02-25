@@ -3,25 +3,33 @@ import "./sign_in.css"
 
 function SignIn() {
 
-    const [login, setlogin] = useState(false);
-    function Loign() {
+    const [login, setlogin] = useState("logNon");
+    const [sign, nonsign] = useState(true);
+    function Sign() {
+        nonsign(false)
         
-        if(login == false){
-            setlogin(true)
-        }else{
-            setlogin(false)
-        }
+    }
+    function Loign() {
+        setlogin("login")
+        // if(login == false){
+        //     setlogin(true)
+            
+        // }
+        // }else{
+        //     setlogin(false)
+        // }
     }
     return(
         <div class="myform">
             <div class ="choise">
                 <ul class=" list-unstyled">
-                    <li>Sign Up </li>
+                    <li onClick={Loign}>Sign Up </li>
                     <li onClick={Loign}>Login</li>
                 </ul>
             </div>
-            <h6>Sign Up for free</h6>
-            <form class="Sign_Up">
+            
+            <form class={ sign ? 'Sign_Up' : "" }>
+                <h6>Sign Up for free</h6>
                 <div>
                     <input placeholder="name"></input>
                     <input placeholder="last name"></input>
@@ -30,8 +38,9 @@ function SignIn() {
                 <input class="password" placeholder="password"></input>
                 <button>Get Started</button>
             </form>
-            <form class={login ? 'logblock' : 'login'}>
-                
+            
+            <form class={login}>
+            <h6>LOGIN FOR FREE</h6>
                 <input class="email" placeholder="email"></input>
                 <input class="password" placeholder="password"></input>
                 <button>Submit</button>
