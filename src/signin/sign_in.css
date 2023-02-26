@@ -2,6 +2,7 @@
     margin: 0px auto;
     background-color: rgb(238, 238, 238);
     width: 48%;
+    padding: 100px 0px;
 
 }
 .choise ul li{
@@ -20,9 +21,9 @@
 .SignNon{
     display: none;
 }
-.logNon{
-    display: none;
-}
 .login{
     display: block;
+}
+.logNon{
+    display: none;
 }
