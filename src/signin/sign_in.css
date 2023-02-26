@@ -1,18 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(max-width:767px){
+    .choise ul{
+        display: block;
+        list-style: none;
+        margin-left: -33px;
+    }
+}
+@media(min-width:768px){
+    .choise ul{
+        display: flex;
+        list-style: none;
+        margin-left: -2rem;
+    }
+}
+:root{
+    --main-color: #1a1a1a;
+    --text-color: #3fb343 ;
+}
 .myform{
     margin: 0px auto;
     background-color: rgb(238, 238, 238);
     width: 48%;
     padding: 100px 0px;
-
 }
+
 .choise ul li{
     display: inline-block;
-    margin: 0px 10px;
+    margin: 0px 1px;
+    background-color: var(--text-color);
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
 }
+.Sign_Up input{
+    margin: 11px 30px;
+    padding: 4px 23px;
+    border: none;
+}
+form .personel{
 
+}
 .Sign_Up .email, .password{
     background-color: rgb(255, 96, 96);
-    width: 100%;
+    width: 90%;
+    margin: 11px 30px;
+    padding: 4px 23px;
+    border: none;
 }
 
 .Sign_Up{
@@ -26,4 +64,13 @@
 }
 .logNon{
     display: none;
+}
+form button{
+    background-color: var(--text-color);
+    color: white;
+    padding: 10px 0px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 90%;
 }
