@@ -41,16 +41,17 @@
     margin: 11px 30px;
     padding: 4px 23px;
     border: none;
+    outline-color: #3fb343;
 }
-form .personel{
-
+form .personel input{
+    width: 40%;
 }
-.Sign_Up .email, .password{
-    background-color: rgb(255, 96, 96);
+form .email, .password{
     width: 90%;
     margin: 11px 30px;
     padding: 4px 23px;
     border: none;
+    
 }
 
 .Sign_Up{
