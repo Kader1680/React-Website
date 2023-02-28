@@ -41,7 +41,7 @@ function  Header(){
                                     <i class="fa-solid fa-chevron-down ms-2"></i>
                                     <ul class="Dropdown">
                                         <li class=" it">
-                                            <a href="/" class="text-decoration-none">Courses</a>
+                                            <a href="/frontend/Courses" class="text-decoration-none">Courses</a>
                                         </li>
                                         <li class=" it">
                                             <a href="/" class="text-decoration-none">Roadmap</a>
