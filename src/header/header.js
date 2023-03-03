@@ -23,6 +23,8 @@ function  Header(){
                             
                             Restretto<span >Code</span>
                         </div>
+                        
+
                         <div class="Ibar" onClick={BarClick} >
                         {
                             ismobile ? (<i class="fa-solid fa-xmark"></i>) : (<i class="fa-solid fa-bars"></i>)
@@ -37,7 +39,7 @@ function  Header(){
                                     
                                 </li>
                                 <li class=" item">
-                                    <a href="/frontend" class="text-decoration-none">FrontEnd</a>
+                                    <a href=" " class="text-decoration-none">FrontEnd</a>
                                     <i class="fa-solid fa-chevron-down ms-2"></i>
                                     <ul class="Dropdown">
                                         <li class=" it">
@@ -72,8 +74,12 @@ function  Header(){
                                         </li>
                                     </ul>
                                 </li>
+                        
                                 <li class=" item">
-                                    <a href="/sign" class=" text-decoration-none">Sign in</a>
+                                    <i class="fa-regular fa-heart"></i>
+                                </li>
+                                <li class=" item">
+                                    <a href="/sign" class=" text-decoration-none"><i class="fa-solid fa-right-to-bracket"></i></a>
                                 </li>
                                 
                             </ul>

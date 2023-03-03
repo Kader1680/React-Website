@@ -42,8 +42,9 @@ function Home() {
                     <a href="https://www.youtube.com/watch?v=D-h8L5hgW-w">Crash Courses HTML & CSS</a>
 
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
-                         
+                        {/* <span class="material-symbols-outlined">thumb_up</span>
+ */}
+                        <span class="material-symbols-outlined">thumb_up</span>
                         <i class="fa-solid fa-download"></i>
                     
                     </div>
@@ -55,8 +56,9 @@ function Home() {
 
 
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
-                         
+                        {/* <span class="material-symbols-outlined">thumb_up</span>
+ */}
+                        <span class="material-symbols-outlined">thumb_up</span>
                         <i class="fa-solid fa-download"></i>
                     
                     </div>
@@ -67,7 +69,8 @@ function Home() {
 
 
                     <div class="commit">
-                        <i class=" fa-regular fa-thumbs-up"></i>
+                        <span class="material-symbols-outlined">thumb_up</span>
+
                          
                         <i class="fa-solid fa-download"></i>
                     
@@ -79,7 +82,8 @@ function Home() {
 
 
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span class="material-symbols-outlined">thumb_up</span>
+
                          
                     
                         <i class="fa-solid fa-download"></i>
@@ -121,9 +125,10 @@ function Home() {
 
 
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span class="material-symbols-outlined">thumb_up</span>
+
                          
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span class="material-symbols-outlined">download</span>
                     
                     </div>
                 </div>
@@ -132,9 +137,10 @@ function Home() {
                     <a href="">Crash Courses SCSS</a>
 
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span class="material-symbols-outlined">thumb_up</span>
+
                          
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span class="material-symbols-outlined">download</span>
                     </div>
                 </div>
                 <div class="Feild col-lg-3">
@@ -144,7 +150,7 @@ function Home() {
                     <div class="commit">
                         <i class=" fa-regular fa-thumbs-up"></i>
                          
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span class="material-symbols-outlined">download</span>
 
                     
                     </div>
@@ -155,9 +161,10 @@ function Home() {
                     <a href="">Crash Courses SCSS</a>
 
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span class="material-symbols-outlined">thumb_up</span>
+
                          
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span class="material-symbols-outlined">download</span>
 
                     
                     </div>
@@ -183,8 +190,9 @@ function Home() {
 
 
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span class="material-symbols-outlined">thumb_up</span>
+
+                        <span class="material-symbols-outlined">download</span>
                     
                     </div>
                 </div>
@@ -192,8 +200,9 @@ function Home() {
                     <img src={javaback} />
                     <a href="">Java</a>
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span class="material-symbols-outlined">thumb_up</span>
+
+                        <span class="material-symbols-outlined">download</span>
                     </div>
                 </div>
                 <div class="Feild col-lg-3">
@@ -204,7 +213,7 @@ function Home() {
                     <div class="commit">
                         <i class=" fa-regular fa-thumbs-up"></i>
                          
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span class="material-symbols-outlined">download</span>
 
                     
                     </div>
@@ -215,9 +224,10 @@ function Home() {
                     <a href="">JavaScript</a>
 
                     <div class="commit">
-                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span class="material-symbols-outlined">thumb_up</span>
+
                          
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span class="material-symbols-outlined">download</span>
 
                     
                     </div>

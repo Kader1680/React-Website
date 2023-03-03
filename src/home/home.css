@@ -83,11 +83,11 @@ hr{
     width: 100%;
     height: 65%;
 }
-.Feild .commit i{
-    font-size: 17px;
+.Feild .commit span{
+    font-size: 23px;
     color: white;
 }
-.Feild .commit i.fa-thumbs-up:hover{
+.Feild .commit span:hover{
     color: var(--text-color)
 }
 
