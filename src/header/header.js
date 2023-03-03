@@ -47,7 +47,7 @@ function  Header(){
                                             <a href="/" class="text-decoration-none">Roadmap</a>
                                         </li>
                                         <li class=" it">
-                                            <a href="/" class="text-decoration-none">Project</a>
+                                            <a href="/frontend/project" class="text-decoration-none">Project</a>
                                         </li>
                                         <li class=" it">
                                             <a href="/" class="text-decoration-none">Other</a>

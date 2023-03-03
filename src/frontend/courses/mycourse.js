@@ -7,8 +7,9 @@ function Mycourse({id, name, img}) {
   return (
     <div class="courses">
           <div class="myfield">
+          
+              <img src={img}/>
               <p>{name}</p>
-              <img src ={img} />
               <div class="commit">
                   <i class="fa-regular fa-thumbs-up"></i>
                   <i class="fa-solid fa-download"></i>

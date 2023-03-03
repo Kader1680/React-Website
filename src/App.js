@@ -8,6 +8,7 @@ import REACT from './frontend/react/react'
 import Home from './home/home';
 import SignIn from './signin/signin';
 import Courses from './frontend/courses/courses';
+import Project from './frontend/project/project';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/backend' element={<SignIn />} />
           <Route path='/frontend/react' element={<REACT />} />
           <Route path='/frontend/Courses' element={<Courses />} />
+          <Route path='/frontend/Project' element={<Project />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
