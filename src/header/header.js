@@ -64,13 +64,13 @@ function  Header(){
                                             <a href="/backend/php" class="text-decoration-none">PHP & Laravel</a>
                                         </li>
                                         <li class=" it">
-                                            <a  href="/backendd/nodejs" class="text-decoration-none">Node js </a>
+                                            <a  href="/backend/nodejs" class="text-decoration-none">Node js </a>
                                         </li>
                                         <li class=" it">
-                                            <a href="/backendd/python" class="text-decoration-none">Django & Flask</a>
+                                            <a href="/backend/python" class="text-decoration-none">Django & Flask</a>
                                         </li>
                                         <li class=" it">
-                                            <a href="/backendd/database" class="text-decoration-none">DataBase</a>
+                                            <a href="/backend/database" class="text-decoration-none">DataBase</a>
                                         </li>
                                     </ul>
                                 </li>

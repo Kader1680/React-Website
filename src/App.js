@@ -10,6 +10,9 @@ import Courses from './frontend/courses/courses';
 import Project from './frontend/project/project';
 import Roadmap from './frontend/roadmap/roadmap';
 import Php from './backend/php/php';
+import Node from './backend/nodjs/node';
+import Python from './backend/python/python';
+import Db from './backend/database/db';
 function App() {
   return (
     <div>
@@ -25,6 +28,9 @@ function App() {
           <Route path='/frontend/Courses' element={<Courses />} />
           <Route path='/frontend/Project' element={<Project />} />
           <Route path='/backend/php' element={<Php />} />
+          <Route path='/backend/nodedjs' element={<Node />} />
+          <Route path='/backend/python' element={<Python />} />
+          <Route path='/backend/database' element={<Db />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
