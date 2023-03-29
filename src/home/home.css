@@ -2,6 +2,47 @@
     --main-color: #1a1a1a;
     --text-color: #3fb343 ;
 }
+/* reseponsive design code */
+@media(max-width:767px){
+    .ContentHome{
+        width: 100%;
+        margin: -84px auto;
+        display: grid;
+        grid-template-columns: 100%;
+        
+    }
+}
+@media(min-width:768px){
+    .ContentHome{
+        width: 100%;
+        margin: -84px auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
+}
+@media(min-width:991px){
+    .ContentHome{
+        width: 100%;
+        margin: -84px auto;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        
+    }
+    .ContentHome .Feild{
+        width: 17rem;
+        margin: 0px 40px;
+        
+    }    
+}
+@media(min-width:1199px){
+    .ContentHome .Feild{
+        width: 20rem;
+        margin: 0px 60px;
+
+    }    
+}
+
 i{
     cursor: pointer;
 }
@@ -56,12 +97,16 @@ hr{
     margin: auto;
 }
 .courses{
-    width: 100%;
-    margin: auto;
+    
 }
-.courses .Feild{
-    margin: 0px auto;
-    width: 24%;
+/* .ContentHome{
+    width: 100%;
+    margin: -84px auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    
+} */
+.ContentHome .Feild{
     background-color: #1a1a1a;
     padding: 10px;
     border-radius: 10px;
@@ -106,8 +151,5 @@ hr{
     float:right;
     right: 0;
 }
-.ContentHome{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-}
+
 

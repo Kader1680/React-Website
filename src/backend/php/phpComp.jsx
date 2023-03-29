@@ -1,10 +1,11 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './home.css'
-export default function HomeData(props) {
+import '../../home/home.css'
+
+export default function PhpComp(props) {
     const {id, title, img }= props.data
+
   return (
-    
     <div class="Feild col-lg-3">
         <img src={img} />
         <a href="https://www.youtube.com/watch?v=AAu8bjj6-UI">{title}</a>
