@@ -128,28 +128,22 @@ hr{
     width: 100%;
     height: 65%;
 }
-.Feild .commit span{
+.Feild .commit .fa-thumbs-up{
     font-size: 23px;
     color: white;
     cursor: pointer;
 }
-.Feild .commit span:hover{
+.Feild .commit .fa-thumbs-up.green{
+    color: var(--text-color)
+}
+.Feild .commit i:hover{
     color: var(--text-color)
 }
 
-.Feild .commit button{
-    /* background-color: var(--main-color);
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 8px; */
-    
-}
 .Feild .commit button .fa-download{
     font-size: 20px;
     color: var(--main-color);
     float:right;
     right: 0;
 }
-
 
