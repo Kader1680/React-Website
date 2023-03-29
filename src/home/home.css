@@ -86,6 +86,7 @@ hr{
 .Feild .commit span{
     font-size: 23px;
     color: white;
+    cursor: pointer;
 }
 .Feild .commit span:hover{
     color: var(--text-color)
@@ -105,5 +106,8 @@ hr{
     float:right;
     right: 0;
 }
-
+.ContentHome{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
 

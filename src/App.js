@@ -9,7 +9,7 @@ import Home from './home/home';
 import SignIn from './signin/signin';
 import Courses from './frontend/courses/courses';
 import Project from './frontend/project/project';
-
+import Roadmap from './frontend/roadmap/roadmap';
 function App() {
   return (
     <div>
@@ -24,6 +24,7 @@ function App() {
           <Route path='/frontend/react' element={<REACT />} />
           <Route path='/frontend/Courses' element={<Courses />} />
           <Route path='/frontend/Project' element={<Project />} />
+          <Route path='/frontend/Roadmap' element={<Roadmap />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}

@@ -8,6 +8,7 @@ import scss from "../frontend/img/scss.png"
 import vuejs from "../frontend/img/vuejs.png"
 import js from "../frontend/img/Javascript.jpg"
 import angular from "../img/angular.png"
+
 export  const frontcourses = [
 
 

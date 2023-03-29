@@ -1,18 +1,8 @@
 import React from "react";
 import './home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import apch from "../img/apch.png"
-import aws from "../img/aws.png"
-import icon from "../img/icon.png"
-import javaback from "../img/javaback.png"
-import api from "../img/api.png"
-import jsinfo from "../img/jsinfo.png"
-import sqlserver from "../img/sqlserver.png"
-import wbtem from "../img/wbtem.png"
-import html from "../img/html.png"
-import php from "../img/php.png"
-import js from "../img/js.png"
-import angular from "../img/angular.png"
+import {DATAHOME} from "../Data/dataHome"
+import HomeData from "./homedata"
 function Home() {
 
 
@@ -25,27 +15,115 @@ function Home() {
                 <div className="search">
                     <input placeholder="Search " ></input>
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    {/* <button><i class="fa-solid fa-magnifying-glass"></i></button> */}
+                    
                 </div>
             </header>
+
 
             <div class="limit d-flex align-text-center ">
                 <hr></hr>
                 <p class='title'>Coureses</p>
                 <hr></hr>
             </div>
-            
-            <div class="courses row ">
+            <div class="ContentHome">
+                
+            {
+                DATAHOME.map((item)=>
+                {
+                    {/* pass items as data in new componenet   */}
+                    return <HomeData data={item}  />
+                }
+                )
+            }
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {/* <div class="courses row ">
                 <div class="Feild col-lg-3">
                     <img src={html} />
 
                     <a href="https://www.youtube.com/watch?v=D-h8L5hgW-w">Crash Courses HTML & CSS</a>
 
                     <div class="commit">
-                        {/* <span class="material-symbols-outlined">thumb_up</span>
- */}
+                        
                         <span class="material-symbols-outlined">thumb_up</span>
-                        <i class="fa-solid fa-download"></i>
+                        <span class="material-symbols-outlined">download
+</span>
                     
                     </div>
                 </div>
@@ -56,10 +134,10 @@ function Home() {
 
 
                     <div class="commit">
-                        {/* <span class="material-symbols-outlined">thumb_up</span>
- */}
+                        
                         <span class="material-symbols-outlined">thumb_up</span>
-                        <i class="fa-solid fa-download"></i>
+                        <span class="material-symbols-outlined">download
+</span>
                     
                     </div>
                 </div>
@@ -72,7 +150,8 @@ function Home() {
                         <span class="material-symbols-outlined">thumb_up</span>
 
                          
-                        <i class="fa-solid fa-download"></i>
+                        <span class="material-symbols-outlined">download
+</span>
                     
                     </div>
                 </div>
@@ -86,19 +165,28 @@ function Home() {
 
                          
                     
-                        <i class="fa-solid fa-download"></i>
+                        <span class="material-symbols-outlined">download
+</span>
                     </div>
                 </div>
             </div>
-    
+     */}
 
 
+
+
+
+
+
+
+{/* 
 
             <div class="limit d-flex align-text-center">
                 <hr></hr>
                 <p class='title'>Tools</p>
                 <hr></hr>
             </div>
+ */}
 
 
 
@@ -113,8 +201,7 @@ function Home() {
 
 
 
-
-
+{/* 
 
 
 
@@ -170,10 +257,10 @@ function Home() {
                     </div>
                 </div>
             </div>
+ */}
 
 
-
-
+{/* 
 
             <div class="limit d-flex align-text-center">
                 <hr></hr>
@@ -181,6 +268,11 @@ function Home() {
                 <hr></hr>
             </div>
 
+ */}
+
+
+
+{/* 
 
             <div class="courses row">
                 <div class="Feild col-lg-3">
@@ -232,7 +324,7 @@ function Home() {
                     
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )
