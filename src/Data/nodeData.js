@@ -1,13 +1,14 @@
-import htmlcss from "../img/html.png"
-import css3 from "../frontend/img/css3.png"
-import bootstrap from "../frontend/img/bootstrap.png"
-import ecommerce from "../frontend/img/ecommerce.png"
-import git from "../frontend/img/git.png"
-import Gulpjs from "../frontend/img/Gulpjs.png"
-import scss from "../frontend/img/scss.png"
-import vuejs from "../frontend/img/vuejs.png"
-import js from "../frontend/img/Javascript.jpg"
-import angular from "../img/angular.png"
+import db from "../img/db.png"
+import express from "../img/express.png"
+import fullstask from "../img/fullstask.png"
+import node from "../img/node.png"
+import nodejs from "../img/nodejs.png"
+import mongo from "../img/mongo.png"
+import mernstask from "../img/mernstask.png"
+import stack from "../img/stack.jpg"
+import mysql from "../img/mysql.png"
+import mysqlcrash from "../img/mysqlcrash.png"
+import api from "../img/api.png"
 
 export  const DATAHOME = [
 
@@ -16,59 +17,70 @@ export  const DATAHOME = [
         
         id: 1,
         title: "courses html & css",
-        img : htmlcss,
+        img : mysqlcrash,
     },
     {
         id: 2,
         title: "courses jaavscripts",
-        img: ecommerce,
+        img: stack,
 
     },
     
     {
         id: 1,
         title: "learn css3 full vedio",
-        img: css3,
+        img: mysql,
     }
     ,
     {
         id: 1,
         title: "learn css3 full vedio",
-        img: vuejs,
+        img: mernstask,
     }
     ,
     {
         id: 1,
         title: "learn css3 full vedio",
-        img: git,
+        img: fullstask,
     }
     ,
     {
         id: 1,
         title: "learn css3 full vedio",
-        img: Gulpjs,
+        img: mongo,
     }
     ,
     {
         id: 1,
         title: "learn css3 full vedio",
-        img: js,
+        img: nodejs,
     }
     ,
     {
         id: 1,
         title: "learn css3 full vedio",
-        img: scss,
+        img: express,
     },
     {
         id: 1,
         title: "learn css3 full vedio",
-        img: angular,
+        img: node,
     }
     ,
     {
         id: 1,
         title: "learn css3 full vedio",
-        img: bootstrap,
+        img: fullstask,
+    }
+    ,
+    {
+        id: 1,
+        title: "learn css3 full vedio",
+        img: db,
+    },
+    {
+        id: 1,
+        title: "learn css3 full vedio",
+        img: api,
     }
 ]

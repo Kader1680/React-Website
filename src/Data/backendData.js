@@ -1,40 +1,37 @@
 
-import apch from "../img/apch.png"
-import aws from "../img/aws.png"
-import icon from "../img/icon.png"
-import javaback from "../img/javaback.png"
-import api from "../img/api.png"
-import jsinfo from "../img/jsinfo.png"
+import laravel from "../img/laravel.png"
+import laravelcrash from "../img/laravelcrash.png"
+import mysql from "../img/mysql.png"
+import mysqlcrash from "../img/mysqlcrash.png"
+import php from "../img/api.png"
+import phpcrash from "../img/phpcrash.png"
 import sqlserver from "../img/sqlserver.png"
-import wbtem from "../img/wbtem.png"
-import html from "../img/html.png"
-import php from "../img/php.png"
-import js from "../img/js.png"
-import angular from "../img/angular.png"
+import projectphp from "../img/projectphp.png"
+import rest from "../img/rest.png"
 
 export const DATAHOME = [
     {
         id:1,
-        title: "learn APSH server",
-        img : apch
+        title: "learn Laravel for free",
+        img : laravel
     },
     {
         id:2,
-        title: "learn AWS",
-        img : aws
+        title: "Crash Course Laravel",
+        img : laravelcrash
     },{
         id:3,
-        title: "learn ",
-        img : icon
+        title: "learn DataBases Mysql",
+        img : mysqlcrash
     },
     {
         id:4,
         title: "learn ",
-        img : javaback
+        img : mysql
     },{
         id:5,
         title: "learn ",
-        img : api
+        img : phpcrash
     },{
         id:6,
         title: "learn ",
@@ -43,25 +40,14 @@ export const DATAHOME = [
         id:7,
         title: "learn ",
         img : sqlserver
-    },{
-        id:8,
+    },
+    {
+        id:7,
         title: "learn ",
-        img : jsinfo
+        img : rest
     },{
-        id:9,
+        id:7,
         title: "learn ",
-        img : angular
-    },{
-        id:10,
-        title: "learn ",
-        img : html
-    },{
-        id:11,
-        title: "learn ",
-        img : js
-    },{
-        id:12,
-        title: "learn ",
-        img : wbtem
+        img : projectphp
     },
 ]

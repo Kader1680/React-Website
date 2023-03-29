@@ -1,3 +1,17 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #1a1a1a;
+    --text-color: #3fb343 ;
+}
+.nav{
+    background-color: var(--main-color);
+    color: var(--text-color)
+} */
+
 *{
     margin: 0;
     padding: 0;
@@ -127,5 +141,8 @@ nav{
     padding: 18px 0px;
 
 }
-
+.item a span{
+    font-size: 20px;
+    
+}
 
