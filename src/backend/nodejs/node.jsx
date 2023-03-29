@@ -1,9 +1,9 @@
 import React from 'react'
-import {DATAHOME} from "../../Data/backendData"
+import {DATAHOME} from "../../Data/nodeData"
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import '../../home/home.css'
-import PhpComp from "./phpComp"
-export default function Php() {
+import '../../home/home.css'
+import NodeComp from "./nodeCom"
+export default function Node() {
   return (
     <div class="ContentHome container mt-0">
                 
@@ -11,7 +11,7 @@ export default function Php() {
         DATAHOME.map((item)=>
         {
             {/* pass items as data in new componenet   */}
-            return <PhpComp data={item}  />
+            return <NodeComp data={item}  />
         }
         )
     }
