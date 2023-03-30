@@ -18,7 +18,6 @@ export default function HomeData(props) {
             <i class={`fa-solid fa-thumbs-up ${(color === true ? "green" : "")}`} onClick={Color}></i>
             <span class="material-symbols-outlined">download</span>
         </div>
-        
     </div>
   )
 }

@@ -25,76 +25,63 @@ body{
     background-color: #000000;
 }
 @media(max-width:767px){
-    nav{
-        width: 100%;
-    }
-    .Ibar .fa-bars, .fa-xmark{
-        font-size: 30px;
-    }
-    nav .logo{
-    }
-    .list{
-        display: grid;
-        position: fixed;
-        background-color: #1b2430;
+    nav .list{
+        display: none;
+        background-color: darkseagreen;
+        list-style: none;
+        padding: 0px 0px;
+        position: absolute;
+        top: 51px;
         right: 0;
-        float: right;
-        top: -18rem;
-        height: 40%;
-        width: 60%;
-        padding-top: 1rem;
-        transition: .5s;
-        -webkit-transition: .5s;
-        -moz-transition: .5s;
-        -ms-transition: .5s;
-        -o-transition: .5s;
-}
-    .list.show{
-        top: 48px;
+        width: 10rem;
+    }
+    nav .list.block{
+        display: block;
         
     }
-    
+    li .sublist{
+        width: 9rem;
+        margin: -18px -144px;
+        
+    }
 }
 @media(min-width:768px){
-    nav{
-        width: 100%;
-    }
-    
-    .Ibar .fa-bars, .fa-xmark{
-        display:none;
-    }
-    .list{
-        list-style: none;
-        padding-top: 10px;
-    }
-    .list .item{
+    .list li{
         display: inline-block;
-        margin-left: 10px;
-        font-weight: bolder;
-        position: relative;
-        padding: 4px 5px;
-        transition: .8s;
-        -webkit-transition: .8s;
-        -moz-transition: .8s;
-        -ms-transition: .8s;
-        -o-transition: .8s;
-}
-    .list .item:hover{
-        border: 1px solid;
-        border-radius: 50px;
     }
-    
 
 }
 nav{
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
+    background-color: red;
     color: var(--text-color);;
     align-items: center;
     position: fixed;
     justify-content: space-around;
     height: 51px;
+    width: 100%;
+    display: flex;
 }
-.list{
+nav .list{
+    list-style: none;
+}
+li{
+    cursor: pointer;
+}
+
+li .sublist{
+    display: grid;
+    background-color: goldenrod;
+    position: absolute;
+    padding: 0px 0px;
+    list-style: none;
+    
+}
+.sublist li{
+    background-color: bisque;
+    
+}
+/* .list{
     list-style: none;
     padding-top: 10px;
 }
@@ -145,4 +132,4 @@ nav{
     font-size: 20px;
     
 }
-
+ */

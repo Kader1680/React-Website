@@ -1,4 +1,6 @@
-import {Routes, Route, BrowserRouter } from 'react-router-dom';
+// import {Routes, Route, BrowserRouter, Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import './App.css';
 import Front from './frontend/frontend';
 import Header from './header/header';
@@ -16,19 +18,20 @@ function App() {
   return (
     <div>
       <Header />
-      <BrowserRouter>
+      
+      <Router>
         <Routes>
-          {/* <Route path='/home' element={<Home /> } /> */}
-          <Route path='/' element={<Home /> } />
-          {/* <Route path='/frontend' element={<Front /> } /> */}
-          <Route path='/backend' element={<Back />} />
-          <Route path='/sign' element={<SignIn />} />
-          <Route path='/frontend/Courses' element={<Courses />} />
-          <Route path='/frontend/Project' element={<Project />} />
-          <Route path='/backend/php' element={<Php />} />
-          <Route path='/backend/nodejs' element={<Node />} />
-        </Routes>
-      </BrowserRouter>
+            {/* <Route path='/home' element={<Home /> } /> */}
+            <Route path='/' element={<Home /> } />
+            {/* <Route path='/frontend' element={<Front /> } /> */}
+            <Route path='/backend' element={<Back />} />
+            <Route path='/sign' element={<SignIn />} />
+            <Route path='/frontend/Courses' element={<Courses />} />
+            <Route path='/frontend/Project' element={<Project />} />
+            <Route path='/backend/php' element={<Php />} />
+            <Route path='/backend/nodejs' element={<Node />} />
+          </Routes>
+        </Router>
       {/* <Footer /> */}
     </div>
     
