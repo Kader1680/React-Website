@@ -40,7 +40,7 @@ return(
                 <li><a><i class="fa-regular fa-heart"></i></a></li>
                 <li><a><span class="material-symbols-outlined">login</span></a></li>
             </ul>
-            <div>
+            <div class="iconlist">
                 <i onClick={List} class={`fa-solid ${(list ? "fa-x" : "fa-bars")}`}></i>
             </div>
 
