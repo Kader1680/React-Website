@@ -28,18 +28,22 @@ body{
         margin: 10px -26px;
         text-align: center;
     }
+    li a{
+        text-decoration: none;
+    }
     nav .list.block{
         display: block;
         
     }
     li .sublist{
-    
+        width: 13rem;
         padding: 10px 10px;
-        
         display: none;
         margin: -40px -202px; 
         display: block; 
-        width: 12rem;
+    }
+    li .sublist li{
+        margin: 20px 0px;
     }
     .list li:hover .sublist{
         display: block;
@@ -52,9 +56,8 @@ body{
     nav .iconlist{
         display: none;
     }
-    nav .list{
-        
-        
+    li a{
+        text-decoration: none;
     }
     nav .list.block{
         

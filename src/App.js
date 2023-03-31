@@ -32,7 +32,7 @@ function App() {
             <Route path='/backend/nodejs' element={<Node />} />
           </Routes>
         </Router>
-      {/* <Footer /> */}
+      <Footer />
     </div>
     
     
