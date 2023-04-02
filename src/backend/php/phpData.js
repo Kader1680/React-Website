@@ -1,17 +1,17 @@
-import apch from "../img/apch.png"
-import aws from "../img/aws.png"
-import icon from "../img/icon.png"
-import javaback from "../img/javaback.png"
-import api from "../img/api.png"
-import jsinfo from "../img/jsinfo.png"
-import sqlserver from "../img/sqlserver.png"
-import wbtem from "../img/wbtem.png"
-import html from "../img/html.png"
-import php from "../img/php.png"
-import js from "../img/js.png"
-import angular from "../img/angular.png"
+import apch from "../../img/apch.png"
+import aws from "../../img/aws.png"
+import icon from "../../img/icon.png"
+import javaback from "../../img/javaback.png"
+import api from "../../img/api.png"
+import jsinfo from "../../img/jsinfo.png"
+import sqlserver from "../../img/sqlserver.png"
+import wbtem from "../../img/wbtem.png"
+import html from "../../img/html.png"
+import php from "../../img/php.png"
+import js from "../../img/js.png"
+import angular from "../../img/angular.png"
 
-export const DATAHOME = [
+export const DATAPHP = [
     {
         id:1,
         title: "learn APSH server",

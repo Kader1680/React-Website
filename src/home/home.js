@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {DATAHOME} from "../Data/dataHome"
 import HomeData from "./homedata"
 function Home() {
-
+    
 
     
     return(

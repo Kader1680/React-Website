@@ -90,6 +90,10 @@ nav{
     height: 51px;
     width: 100%;
     display: flex;
+    padding: 50px 0px;
+}
+nav .logo img{
+    width: 17%;
 }
 nav .list{
     list-style: none;

@@ -1,6 +1,7 @@
 import React from "react";
 import './header.css'
 import { useState } from "react";
+import logo from "../img/logo.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -12,9 +13,9 @@ function  Header(){
         }
         
 return(
-        <nav>
+        <nav >
             <div class="logo">
-                logo
+                <img src={logo} />
             </div>
             <ul class={`list ${(list ? "block" : "")}`}>
                 <li><a href="/">Home</a></li>

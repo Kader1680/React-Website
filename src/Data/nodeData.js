@@ -10,7 +10,7 @@ import mysql from "../img/mysql.png"
 import mysqlcrash from "../img/mysqlcrash.png"
 import api from "../img/api.png"
 
-export  const DATAHOME = [
+export  const DATANODE = [
 
 
     {
