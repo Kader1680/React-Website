@@ -6,16 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function  Header(){
 
-
-        // const [ismobile, setmobile] = useState(false);
-        // const BarClick = () =>{
-        //     if(ismobile){
-        //         setmobile(false)
-        //     }else{
-        //         setmobile(true)
-        //     }
-        // }
-        
         const [list, setlist] = useState(false);
         const List = () => {
             setlist(!list)
@@ -27,7 +17,7 @@ return(
                 logo
             </div>
             <ul class={`list ${(list ? "block" : "")}`}>
-                <li><a>Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>
                     FrontEnd
                     <ul class="sublist">

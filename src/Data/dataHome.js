@@ -19,48 +19,48 @@ export const DATAHOME = [
     },
     {
         id:2,
-        title: "learn AWS",
+        title: "learn Amazoun Web Server",
         img : aws
     },{
         id:3,
-        title: "learn ",
+        title: "Get Perfect Icon for Free ",
         img : icon
     },
     {
         id:4,
-        title: "learn ",
+        title: "Mastering JavaScript ",
         img : javaback
     },{
         id:5,
-        title: "learn ",
+        title: "How To Use Api ",
         img : api
     },{
         id:6,
-        title: "learn ",
+        title: "Php for beginner ",
         img : php
     },{
         id:7,
-        title: "learn ",
+        title: "Full Courses SqlServer ",
         img : sqlserver
     },{
         id:8,
-        title: "learn ",
+        title: "You don't Know Js ",
         img : jsinfo
     },{
         id:9,
-        title: "learn ",
+        title: "Angular for Web ",
         img : angular
     },{
         id:10,
-        title: "learn ",
+        title: "Basic HTML 5 ",
         img : html
     },{
         id:11,
-        title: "learn ",
+        title: "JavaScript ECMA6 ",
         img : js
     },{
         id:12,
-        title: "learn ",
+        title: "Web Developement ",
         img : wbtem
     },
 ]
