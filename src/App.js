@@ -1,5 +1,4 @@
-// import {Routes, Route, BrowserRouter, Router } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import Front from './frontend/frontend';
@@ -16,14 +15,11 @@ import Node from './backend/nodejs/node';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
+      <div>
       <Header />
-      
-      <Router>
         <Routes>
-            {/* <Route path='/home' element={<Home /> } /> */}
             <Route path='/' element={<Home /> } />
-            {/* <Route path='/frontend' element={<Front /> } /> */}
             <Route path='/backend' element={<Back />} />
             <Route path='/sign' element={<SignIn />} />
             <Route path='/frontend/Courses' element={<Courses />} />
@@ -31,13 +27,10 @@ function App() {
             <Route path='/backend/php' element={<Php />} />
             <Route path='/backend/nodejs' element={<Node />} />
           </Routes>
-        </Router>
       <Footer />
-    </div>
-    
-    
-    
-    
+      </div>
+    </BrowserRouter>
+
   );
 }
 

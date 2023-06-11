@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #1a1a1a;
+    --text-color: #3fb343 ;
+}
+
+.favo{
+    background-color: rgb(214, 214, 214);
+    padding: 15rem 0rem;
+    color: var(--text-color);
+}
+.favo .content{
+    background-color: #1a1a1a;
+    margin: 0rem 8rem;
+    height: 17rem;
+} 
+.favo h2{
+    color: var(--text-color);
+    margin-top: 0;
+    
+} 
