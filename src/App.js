@@ -20,6 +20,7 @@ function App() {
       <Header />
         <Routes>
             <Route path='/' element={<Home /> } />
+            <Route path='/React-Website' element={<Home /> } />
             <Route path='/backend' element={<Back />} />
             <Route path='/sign' element={<SignIn />} />
             <Route path='/frontend/Courses' element={<Courses />} />
