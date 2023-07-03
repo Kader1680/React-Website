@@ -19,14 +19,14 @@ function App() {
       <div>
       <Header />
         <Routes>
-            <Route path='/' element={<Home /> } />
-            <Route path='/React-Website' element={<Home /> } />
-            <Route path='/backend' element={<Back />} />
-            <Route path='/sign' element={<SignIn />} />
-            <Route path='/frontend/Courses' element={<Courses />} />
-            <Route path='/frontend/Project' element={<Project />} />
-            <Route path='/backend/php' element={<Php />} />
-            <Route path='/backend/nodejs' element={<Node />} />
+            {/* <Route path='/' element={<Home /> } /> */}
+            <Route path='/React-Website/' element={<Home /> } />
+            <Route path='/React-Website/backend' element={<Back />} />
+            <Route path='/React-Website/sign' element={<SignIn />} />
+            <Route path='/React-Website/frontend/Courses' element={<Courses />} />
+            <Route path='/React-Website/frontend/Project' element={<Project />} />
+            <Route path='/React-Website/backend/php' element={<Php />} />
+            <Route path='/React-Website/backend/nodejs' element={<Node />} />
           </Routes>
       <Footer />
       </div>
