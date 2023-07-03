@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
       <div>
       <Header />
-        <Routes>
+        {/* <Routes>
             <Route path='/' element={<Home /> } />
             <Route path='/React-Website' element={<Home /> } />
             <Route path='/React-Website/backend' element={<Back />} />
@@ -27,7 +27,7 @@ function App() {
             <Route path='/React-Website/frontend/Project' element={<Project />} />
             <Route path='/React-Website/backend/php' element={<Php />} />
             <Route path='/React-Website/backend/nodejs' element={<Node />} />
-          </Routes>
+          </Routes> */}
       <Footer />
       </div>
     </BrowserRouter>
