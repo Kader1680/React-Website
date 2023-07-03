@@ -19,8 +19,8 @@ function App() {
       <div>
       <Header />
         <Routes>
-            {/* <Route path='/' element={<Home /> } /> */}
-            <Route path='/React-Website/' element={<Home /> } />
+            <Route path='/' element={<Home /> } />
+            <Route path='/React-Website' element={<Home /> } />
             <Route path='/React-Website/backend' element={<Back />} />
             <Route path='/React-Website/sign' element={<SignIn />} />
             <Route path='/React-Website/frontend/Courses' element={<Courses />} />

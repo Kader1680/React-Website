@@ -15,7 +15,7 @@ return(
                 <img src={logo} />
             </div>
             <ul class={`list ${(list ? "block" : "")}`}>
-                <li><Link to="/React-Website/">Home</Link></li>
+                <li><Link to="/React-Website">Home</Link></li>
                 <li>
                     FrontEnd
                     <ul class="sublist">
