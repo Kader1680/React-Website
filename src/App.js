@@ -15,22 +15,25 @@ import Node from './backend/nodejs/node';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
+    <div>
       <Header />
-        {/* <Routes>
-            <Route path='/' element={<Home /> } />
-            <Route path='/React-Website' element={<Home /> } />
-            <Route path='/React-Website/backend' element={<Back />} />
-            <Route path='/React-Website/sign' element={<SignIn />} />
-            <Route path='/React-Website/frontend/Courses' element={<Courses />} />
-            <Route path='/React-Website/frontend/Project' element={<Project />} />
-            <Route path='/React-Website/backend/php' element={<Php />} />
-            <Route path='/React-Website/backend/nodejs' element={<Node />} />
-          </Routes> */}
-      <Footer />
-      </div>
-    </BrowserRouter>
+    </div>
+    // <BrowserRouter>
+    //   <div>
+    //   <Header />
+    //     {/* <Routes>
+    //         <Route path='/' element={<Home /> } />
+    //         <Route path='/React-Website' element={<Home /> } />
+    //         <Route path='/React-Website/backend' element={<Back />} />
+    //         <Route path='/React-Website/sign' element={<SignIn />} />
+    //         <Route path='/React-Website/frontend/Courses' element={<Courses />} />
+    //         <Route path='/React-Website/frontend/Project' element={<Project />} />
+    //         <Route path='/React-Website/backend/php' element={<Php />} />
+    //         <Route path='/React-Website/backend/nodejs' element={<Node />} />
+    //       </Routes> */}
+    //   <Footer />
+    //   </div>
+    // </BrowserRouter>
 
   );
 }
